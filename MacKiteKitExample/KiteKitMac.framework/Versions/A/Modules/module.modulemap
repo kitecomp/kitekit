@@ -1,0 +1,10 @@
+framework module KiteKitMac {
+  umbrella header "KiteKitMac.h"
+
+  export *
+  module * { export * }
+}
+
+module KiteKitMac.Swift {
+    header "KiteKitMac-Swift.h"
+}
