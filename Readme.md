@@ -7,15 +7,15 @@ KiteKit is an iOS and macOS framework you can embed in your application that all
 * **iOS**: 10.0+
 * **macOS**: 10.12+
 
-KiteKit is written in Swift and currently ships the Swift runtime embedded in the framework.
+KiteKit is written in Swift and currently requires your app to embed the Swift standard libraries. This will only be a concern to you if your app is 100% Objective-C and contains no existing Swift sources.
 
 ### Getting Started
 
 To use the framework, clone/download this repository and locate the example project for the platform you're targeting. Inside the repo there are three example projects:
 
-* iOS Simulator – The framework compiled to target the iOS Simularator. `/iOSKiteKitExample (Simulator)/KiteKit.framework`
-* iOS Device – The framework compiled to target arm and arm64 devices. `/iOSKiteKitExample (Device)/KiteKit.framework`
-* macOS – The framework compiled to target macOS. `/MacKiteKitExample/KiteKitMac.framework`
+* **iOS Simulator** – The framework compiled to target the iOS Simularator. `/iOSKiteKitExample (Simulator)/KiteKit.framework`
+* **iOS Device** – The framework compiled to target arm and arm64 devices. `/iOSKiteKitExample (Device)/KiteKit.framework`
+* **macOS** – The framework compiled to target macOS. `/MacKiteKitExample/KiteKitMac.framework`
 
 Copy the framework bundle into your own project as shown in the example project. Apple has a helpful guide for embedding frameworks [here](https://developer.apple.com/library/content/technotes/tn2435/_index.html) if you need help with this step.
 
