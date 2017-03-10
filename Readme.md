@@ -17,7 +17,10 @@ KiteKit is an iOS and macOS framework you can embed in your application that all
 
 KiteKit is written in Swift and currently requires your app to embed the Swift standard libraries. This will only be a concern to you if your app is 100% Objective-C and contains no existing Swift sources.
 
+One other limitation is that being a Swift binary framework, it requires your app to have [Whole Module Optimization](https://swift.org/blog/whole-module-optimizations/) turned on in the project settings to launch. I'm not 100% what the cause of this is yet, but if you know of any tips on this please let me know.
+
 <br>
+
 
 ## Getting Started
 
@@ -46,6 +49,9 @@ In your `UIViewController` or `NSViewController` subclass, you can load and crea
 
 **1.** Import the KiteKit module in your Swift file
 ```swift
+import AVFoundation
+import JavaScriptCore
+import MobileCoreServices // (iOS only)
 import KiteKit
 ```
 
@@ -79,6 +85,9 @@ kitePresentationViewController.startPresenting()
 **All together:**
 
 ```swift
+import AVFoundation
+import JavaScriptCore
+import MobileCoreServices // (iOS only)
 import KiteKit
 
 override func viewDidLoad()
