@@ -7,6 +7,7 @@ import UIKit
 
 import AVFoundation
 import JavaScriptCore
+import MobileCoreServices
 import KiteKit
 
 class ViewController: UIViewController {
