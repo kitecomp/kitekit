@@ -4,6 +4,9 @@
 //
 
 import UIKit
+
+import AVFoundation
+import JavaScriptCore
 import KiteKit
 
 class ViewController: UIViewController {

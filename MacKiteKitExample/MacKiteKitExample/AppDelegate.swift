@@ -4,6 +4,8 @@
 //
 
 import Cocoa
+import AVFoundation
+import JavaScriptCore
 import KiteKitMac
 
 @NSApplicationMain

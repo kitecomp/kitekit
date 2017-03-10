@@ -2,9 +2,6 @@
 //  KiteKit.h
 //  KiteKit
 //
-//  Created by Joe Rhodes on 6/29/16.
-//  Copyright © 2016 Rhodes. All rights reserved.
-//
 
 
 #import <UIKit/UIKit.h>
@@ -17,3 +14,11 @@ FOUNDATION_EXPORT double KiteKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char KiteKitVersionString[];
 
 // Public headers
+#import <KiteKit/PocketSVG.h>
+#import <KiteKit/JRObservationController.h>
+#import <KiteKit/JRObservationInfoCollection.h>
+#import <KiteKit/JRObservationReceptionist.h>
+#import <KiteKit/JRJavaScriptWriter.h>
+#import <KiteKit/CAAnimation+Blocks.h>
+#import <KiteKit/JRObjCTryCatch.h>
+#import <KiteKit/FBKVOController.h>
