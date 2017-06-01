@@ -28,6 +28,4 @@
 @property (nonatomic, copy) void (^completion)(BOOL finished);
 @property (nonatomic, copy) void (^start)(void);
 
-- (void)setCompletion:(void (^)(BOOL finished))completion;
-
 @end
