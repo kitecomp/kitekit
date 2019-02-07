@@ -11,11 +11,12 @@
       "timelineManager" : {
         "pointsPerSecond" : 200
       },
-      "canvasID" : 1
+      "canvasID" : 1,
+      "uuid" : "A0AF2ECC-72AF-4E5E-8A5B-B87942146C5E"
     }
   ],
   "createdWithVersion" : "3",
-  "lastSavedWithVersion" : "4",
+  "lastSavedWithVersion" : "44",
   "creationDate" : "2017-02-10T11:49:30-05:00",
   "uuid" : "48F60FB1-E4C3-4FD0-A764-892C98FDFD18"
 }

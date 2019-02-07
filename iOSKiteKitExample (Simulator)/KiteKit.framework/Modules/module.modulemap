@@ -7,4 +7,5 @@ framework module KiteKit {
 
 module KiteKit.Swift {
     header "KiteKit-Swift.h"
+    requires objc
 }
